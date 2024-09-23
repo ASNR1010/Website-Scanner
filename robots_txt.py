@@ -10,5 +10,3 @@ def get_robots_txt(url):
     data = io.TextIOWrapper(req, encoding='utf-8') # utf-8 standard encoding 
     print("Getting robots_txt ...")
     return data.read()
-
-# print(get_robots_txt("https://www.google.com/"))
