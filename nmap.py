@@ -6,5 +6,3 @@ def get_nmap(options, ip):  #nmpa has -F option. So, we let user decide which op
     results = str(process.read()) #it will store in string format
     print("Getting nmap ...")
     return results
-
-# print(get_nmap("-F", "google.com"))
