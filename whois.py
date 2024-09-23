@@ -6,5 +6,3 @@ def get_whois(url):  #this url is top level domain
     results = str(process.read()) 
     print("Getting whois...")
     return results
-
-# print(get_whois("thenewboston.com"))
