@@ -5,5 +5,3 @@ def get_domain_name(url):
     domain_name = get_fld(url)
     print("Getting domain Name ...")
     return domain_name
-
-# print(get_domain_name('https://google.com/'))
